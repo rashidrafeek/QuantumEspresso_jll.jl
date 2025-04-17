@@ -1,0 +1,10 @@
+[[QuantumEspresso]]
+arch = "x86_64"
+git-tree-sha1 = "b5c3ece3036bc0a3f8b695b8212fa9a5e5fe9c59"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[QuantumEspresso.download]]
+    sha256 = "9291f26d688e69bb9f734f0ddfebdc397ae2a1fbba47fcb738f2c75f78a698fc"
+    url = "https://github.com/rashidrafeek/QuantumEspresso_jll.jl/releases/download/QuantumEspresso-v7.3.1+0/QuantumEspresso.v7.0.1.x86_64-linux-gnu.tar.gz"
