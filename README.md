@@ -17,7 +17,8 @@ The tarballs for `QuantumEspresso_jll.jl` have been built from these sources:
 
 `QuantumEspresso_jll.jl` is available for the following platforms:
 
-* `Linux x86_64 {libc=glibc}` (`x86_64-linux-gnu`)
+* `Linux x86_64 {cxxstring_abi=cxx11, julia_version=1.7.3, libc=glibc, libgfortran_version=4.0.0, libstdcxx_version=3.4.29, mpi=mpich}` (`x86_64-linux-gnu-libgfortran4-cxx11-libstdcxx29-julia_version+1.7.3-mpi+mpich`)
+* `Linux x86_64 {cxxstring_abi=cxx11, julia_version=1.7.3, libc=glibc, libgfortran_version=4.0.0, libstdcxx_version=3.4.29, mpi=openmpi}` (`x86_64-linux-gnu-libgfortran4-cxx11-libstdcxx29-julia_version+1.7.3-mpi+openmpi`)
 
 ## Dependencies
 

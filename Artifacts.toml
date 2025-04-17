@@ -8,3 +8,33 @@ os = "linux"
     [[QuantumEspresso.download]]
     sha256 = "9291f26d688e69bb9f734f0ddfebdc397ae2a1fbba47fcb738f2c75f78a698fc"
     url = "https://github.com/rashidrafeek/QuantumEspresso_jll.jl/releases/download/QuantumEspresso-v7.3.1+0/QuantumEspresso.v7.0.1.x86_64-linux-gnu.tar.gz"
+[[QuantumEspresso]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "376a309f03d00b3801a4ff5df19ba5cf30a9659f"
+julia_version = "1.7.3"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+libstdcxx_version = "3.4.29"
+mpi = "mpich"
+os = "linux"
+
+    [[QuantumEspresso.download]]
+    sha256 = "d96916f812ead97821872db57e4cca00f05c384e12d5514c7621125cd1fd19ad"
+    url = "https://github.com/rashidrafeek/QuantumEspresso_jll.jl/releases/download/QuantumEspresso-v7.3.1+0/QuantumEspresso.v7.3.1.x86_64-linux-gnu-libgfortran4-cxx11-libstdcxx29-julia_version+1.7.3-mpi+mpich.tar.gz"
+[[QuantumEspresso]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4efdee31dc213ede779d28b6e8b54ee10ff12a0f"
+julia_version = "1.7.3"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+libstdcxx_version = "3.4.29"
+mpi = "openmpi"
+os = "linux"
+
+    [[QuantumEspresso.download]]
+    sha256 = "1c77ed6cc53a38e4c05a3b74045ea549f9942ae3793e4f583fae8f35df634169"
+    url = "https://github.com/rashidrafeek/QuantumEspresso_jll.jl/releases/download/QuantumEspresso-v7.3.1+0/QuantumEspresso.v7.3.1.x86_64-linux-gnu-libgfortran4-cxx11-libstdcxx29-julia_version+1.7.3-mpi+openmpi.tar.gz"
